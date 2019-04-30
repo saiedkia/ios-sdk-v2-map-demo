@@ -8,20 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		C0947EBC2278579800649140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947EBB2278579800649140 /* AppDelegate.swift */; };
-		C0947EBE2278579800649140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947EBD2278579800649140 /* ViewController.swift */; };
+		C0947EBE2278579800649140 /* CodeBasedVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947EBD2278579800649140 /* CodeBasedVersionViewController.swift */; };
 		C0947EC12278579800649140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0947EBF2278579800649140 /* Main.storyboard */; };
 		C0947EC32278579900649140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0947EC22278579900649140 /* Assets.xcassets */; };
 		C0947EC62278579900649140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0947EC42278579900649140 /* LaunchScreen.storyboard */; };
+		C0947ECE2278616100649140 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0947ECD2278616100649140 /* Mapbox.framework */; };
+		C0947ECF2278616100649140 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0947ECD2278616100649140 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0947ED52278842C00649140 /* StoryboardBasedVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0947ED02278616200649140 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C0947ECF2278616100649140 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C0947EB82278579800649140 /* Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0947EBB2278579800649140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0947EBD2278579800649140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0947EBD2278579800649140 /* CodeBasedVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBasedVersionViewController.swift; sourceTree = "<group>"; };
 		C0947EC02278579800649140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0947EC22278579900649140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0947EC52278579900649140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0947EC72278579900649140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0947ECD2278616100649140 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedVersionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0947ECE2278616100649140 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +58,7 @@
 		C0947EAF2278579800649140 = {
 			isa = PBXGroup;
 			children = (
+				C0947ECD2278616100649140 /* Mapbox.framework */,
 				C0947EBA2278579800649140 /* Demo App */,
 				C0947EB92278579800649140 /* Products */,
 			);
@@ -55,11 +76,12 @@
 			isa = PBXGroup;
 			children = (
 				C0947EBB2278579800649140 /* AppDelegate.swift */,
-				C0947EBD2278579800649140 /* ViewController.swift */,
+				C0947EBD2278579800649140 /* CodeBasedVersionViewController.swift */,
 				C0947EBF2278579800649140 /* Main.storyboard */,
 				C0947EC22278579900649140 /* Assets.xcassets */,
 				C0947EC42278579900649140 /* LaunchScreen.storyboard */,
 				C0947EC72278579900649140 /* Info.plist */,
+				C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */,
 			);
 			path = "Demo App";
 			sourceTree = "<group>";
@@ -74,6 +96,8 @@
 				C0947EB42278579800649140 /* Sources */,
 				C0947EB52278579800649140 /* Frameworks */,
 				C0947EB62278579800649140 /* Resources */,
+				C0947ED02278616200649140 /* Embed Frameworks */,
+				C0947ED12278616F00649140 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,12 +154,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0947ED12278616F00649140 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0947EB42278579800649140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0947EBE2278579800649140 /* ViewController.swift in Sources */,
+				C0947ED52278842C00649140 /* StoryboardBasedVersionViewController.swift in Sources */,
+				C0947EBE2278579800649140 /* CodeBasedVersionViewController.swift in Sources */,
 				C0947EBC2278579800649140 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +329,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33DVPZ7L7T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Demo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +352,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33DVPZ7L7T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Demo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
