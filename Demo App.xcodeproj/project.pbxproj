@@ -17,6 +17,7 @@
 		C0947ED52278842C00649140 /* StoryboardBasedVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */; };
 		C0947ED922795E4700649140 /* UserCurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947ED822795E4700649140 /* UserCurrentLocationViewController.swift */; };
 		C0D554ED227971FA00C52699 /* AnnotaionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554EC227971FA00C52699 /* AnnotaionsViewController.swift */; };
+		C0D554F722797CBA00C52699 /* CalloutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554F622797CBA00C52699 /* CalloutsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		C0947ED722789C2D00649140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		C0947ED822795E4700649140 /* UserCurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCurrentLocationViewController.swift; sourceTree = "<group>"; };
 		C0D554EC227971FA00C52699 /* AnnotaionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotaionsViewController.swift; sourceTree = "<group>"; };
+		C0D554F622797CBA00C52699 /* CalloutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */,
 				C0947ED822795E4700649140 /* UserCurrentLocationViewController.swift */,
 				C0D554EC227971FA00C52699 /* AnnotaionsViewController.swift */,
+				C0D554F622797CBA00C52699 /* CalloutsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				C0D554ED227971FA00C52699 /* AnnotaionsViewController.swift in Sources */,
 				C0947EBE2278579800649140 /* CodeBasedVersionViewController.swift in Sources */,
 				C0947EBC2278579800649140 /* AppDelegate.swift in Sources */,
+				C0D554F722797CBA00C52699 /* CalloutsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
