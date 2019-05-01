@@ -84,6 +84,7 @@
 				C0D554F12279724900C52699 /* Storybords */,
 				C0D554F22279725800C52699 /* Design Assets */,
 				C0D554F02279723600C52699 /* Supporting Files */,
+				C0947EC72278579900649140 /* Info.plist */,
 			);
 			path = "Demo App";
 			sourceTree = "<group>";
@@ -104,7 +105,6 @@
 			children = (
 				C0947EBB2278579800649140 /* AppDelegate.swift */,
 				C0947EC42278579900649140 /* LaunchScreen.storyboard */,
-				C0947EC72278579900649140 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
