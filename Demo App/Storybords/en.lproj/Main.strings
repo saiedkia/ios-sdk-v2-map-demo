@@ -1,0 +1,15 @@
+
+/* Class = "UINavigationItem"; title = "Map.ir iOS SDK Demo"; ObjectID = "14w-NF-vC5"; */
+"14w-NF-vC5.title" = "Map.ir iOS SDK Demo";
+
+/* Class = "UILabel"; text = "Storyboard Based"; ObjectID = "5yv-To-iuD"; */
+"5yv-To-iuD.text" = "Storyboard Based";
+
+/* Class = "UILabel"; text = "Code Based"; ObjectID = "c6q-u3-7qu"; */
+"c6q-u3-7qu.text" = "Code Based";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "dP4-Lj-2A3"; */
+"dP4-Lj-2A3.title" = "Back";
+
+/* Class = "UITableViewSection"; headerTitle = "Map"; ObjectID = "sas-cv-ASS"; */
+"sas-cv-ASS.headerTitle" = "Map";
