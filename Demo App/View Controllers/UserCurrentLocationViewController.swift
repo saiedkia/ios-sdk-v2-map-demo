@@ -15,6 +15,7 @@ class UserCurrentLocationViewController: UIViewController, MGLMapViewDelegate {
         didSet {
             mapView.styleURL = MGLStyle.mapirVectorStyleURL()
             mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            mapView.minimumZoomLevel = 1
         }
     }
     

@@ -42,6 +42,38 @@
             </objects>
             <point key="canvasLocation" x="2922" y="200"/>
         </scene>
+        <!--Polylines-->
+        <scene sceneID="uhf-uR-5WP">
+            <objects>
+                <viewController id="lbt-Fv-BxU" customClass="PolylinesViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ajm-Lb-5rN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Sym-C7-QsK"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Polylines" id="c6R-ZD-A9m"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYG-Sf-OOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3630" y="200"/>
+        </scene>
+        <!--Polygons-->
+        <scene sceneID="d3a-zV-O8T">
+            <objects>
+                <viewController id="7IF-UR-eyA" customClass="PolygonsViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fzZ-QX-lHe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="VDF-CU-qGL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Polygons" id="CEr-i8-7tv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I44-U4-YaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4342" y="200"/>
+        </scene>
         <!--Map.ir iOS SDK Demo-->
         <scene sceneID="roi-Gl-Xhx">
             <objects>
@@ -179,6 +211,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="lbt-Fv-BxU" kind="showDetail" id="9fw-LY-Pcp"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="7d1-qJ-D1R" style="IBUITableViewCellStyleDefault" id="hp2-KI-o4f">
                                         <rect key="frame" x="0.0" y="518.5" width="414" height="44"/>
@@ -196,6 +231,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="7IF-UR-eyA" kind="showDetail" id="ZoP-lV-ges"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
