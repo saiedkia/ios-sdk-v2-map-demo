@@ -24,6 +24,8 @@
 		C0D555172279BDCB00C52699 /* AnimatedAnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D555162279BDCB00C52699 /* AnimatedAnnotationsViewController.swift */; };
 		C0D555192279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D555182279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift */; };
 		C0D9EC97227D5D850095A761 /* camera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D9EC96227D5D850095A761 /* camera.xcassets */; };
+		C0D9EC99227D9B4A0095A761 /* PointConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9EC98227D9B4A0095A761 /* PointConversionViewController.swift */; };
+		C0D9EC9B227DA9650095A761 /* RestrictMapPanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9EC9A227DA9650095A761 /* RestrictMapPanningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +62,8 @@
 		C0D555162279BDCB00C52699 /* AnimatedAnnotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAnnotationsViewController.swift; sourceTree = "<group>"; };
 		C0D555182279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsAsCalloutsViewController.swift; sourceTree = "<group>"; };
 		C0D9EC96227D5D850095A761 /* camera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = camera.xcassets; sourceTree = "<group>"; };
+		C0D9EC98227D9B4A0095A761 /* PointConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointConversionViewController.swift; sourceTree = "<group>"; };
+		C0D9EC9A227DA9650095A761 /* RestrictMapPanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictMapPanningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				C0D555142279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift */,
 				C0D555162279BDCB00C52699 /* AnimatedAnnotationsViewController.swift */,
 				C0D555182279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift */,
+				C0D9EC98227D9B4A0095A761 /* PointConversionViewController.swift */,
+				C0D9EC9A227DA9650095A761 /* RestrictMapPanningViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -241,10 +247,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D555172279BDCB00C52699 /* AnimatedAnnotationsViewController.swift in Sources */,
+				C0D9EC9B227DA9650095A761 /* RestrictMapPanningViewController.swift in Sources */,
 				C0D555152279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift in Sources */,
 				C0947ED922795E4700649140 /* UserCurrentLocationViewController.swift in Sources */,
 				C0D554FB22798EEB00C52699 /* PolygonsViewController.swift in Sources */,
 				C0947ED52278842C00649140 /* StoryboardBasedVersionViewController.swift in Sources */,
+				C0D9EC99227D9B4A0095A761 /* PointConversionViewController.swift in Sources */,
 				C0D555192279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift in Sources */,
 				C0D554ED227971FA00C52699 /* AnnotationsViewController.swift in Sources */,
 				C0947EBE2278579800649140 /* CodeBasedVersionViewController.swift in Sources */,

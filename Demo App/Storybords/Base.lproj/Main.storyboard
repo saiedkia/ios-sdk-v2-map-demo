@@ -58,6 +58,47 @@
             </objects>
             <point key="canvasLocation" x="3422" y="129"/>
         </scene>
+        <!--Point Conversion-->
+        <scene sceneID="yx3-XP-ojM">
+            <objects>
+                <viewController id="fqH-lH-J27" customClass="PointConversionViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9UY-bi-Dso">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="4nk-oO-HgL"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="q54-Iz-bbq" appends="YES" id="wvj-T4-da5"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Point Conversion" id="CNd-u4-lk1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLs-3t-KrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="q54-Iz-bbq">
+                    <connections>
+                        <action selector="handleMapTap:" destination="fqH-lH-J27" id="Y1u-7p-uMD"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2699" y="-593"/>
+        </scene>
+        <!--Restrict Map Panning-->
+        <scene sceneID="DTX-5T-YDZ">
+            <objects>
+                <viewController id="5Hy-AX-eON" customClass="RestrictMapPanningViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iTb-nK-IO7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NsG-Nt-hTS"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Restrict Map Panning" id="jnA-7V-tOQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAQ-xR-TlV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3422" y="-593"/>
+        </scene>
         <!--Polygons-->
         <scene sceneID="d3a-zV-O8T">
             <objects>
@@ -88,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jx-63-Xlf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2699" y="-568"/>
+            <point key="canvasLocation" x="4867" y="129"/>
         </scene>
         <!--Animated Annotation Views-->
         <scene sceneID="rhG-xo-Eqh">
@@ -104,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LMv-Lj-fbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3422" y="-569"/>
+            <point key="canvasLocation" x="5590" y="129"/>
         </scene>
         <!--Custom Views as Callouts-->
         <scene sceneID="d3R-Ez-DmN">
@@ -120,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4jQ-Ir-eGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4148" y="-569"/>
+            <point key="canvasLocation" x="6316" y="129"/>
         </scene>
         <!--Map.ir iOS SDK Demo-->
         <scene sceneID="roi-Gl-Xhx">
@@ -345,6 +386,50 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Egc-jO-LWn" kind="showDetail" id="h4j-8k-J9Z"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="7AA-pv-4f3" style="IBUITableViewCellStyleDefault" id="1V0-OI-gfb">
+                                        <rect key="frame" x="0.0" y="758" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1V0-OI-gfb" id="JnZ-9x-GDh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Convert Selected Points to Marker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7AA-pv-4f3">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fqH-lH-J27" kind="showDetail" id="4NX-NK-Ypk"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="User Interaction" footerTitle="" id="n3k-wm-Yi5">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="xDh-0d-GCy" style="IBUITableViewCellStyleDefault" id="QDB-bn-aFo">
+                                        <rect key="frame" x="0.0" y="865.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QDB-bn-aFo" id="Tfc-WC-IkI">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Restrict Map Panning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xDh-0d-GCy">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5Hy-AX-eON" kind="showDetail" id="dU5-nN-2eQ"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
