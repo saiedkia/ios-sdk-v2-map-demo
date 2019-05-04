@@ -21,7 +21,6 @@ class CodeBasedVersionViewController: UIViewController, MGLMapViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         // Instanciate MapView
         mapView = MGLMapView(frame: view.bounds)

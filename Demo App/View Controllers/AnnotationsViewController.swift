@@ -1,5 +1,5 @@
 //
-//  AnnotaionsViewController.swift
+//  AnnotationsViewController.swift
 //  Demo App
 //
 //  Created by Alireza Asadi on 11/2/1398 AP.
@@ -9,7 +9,7 @@
 import UIKit
 import Mapbox
 
-class AnnotaionsViewController: UIViewController, MGLMapViewDelegate {
+class AnnotationsViewController: UIViewController, MGLMapViewDelegate {
     
     var mapView: MGLMapView! {
         didSet {
@@ -37,16 +37,4 @@ class AnnotaionsViewController: UIViewController, MGLMapViewDelegate {
         mapView.zoomLevel = 2
         mapView.centerCoordinate = tehranCoordinates
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

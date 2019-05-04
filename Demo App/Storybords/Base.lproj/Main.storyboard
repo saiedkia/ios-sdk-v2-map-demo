@@ -24,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="803" y="932"/>
+            <point key="canvasLocation" x="1696" y="879"/>
         </scene>
         <!--Callouts-->
         <scene sceneID="di7-wm-W7e">
@@ -40,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7R-gv-LpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2922" y="200"/>
+            <point key="canvasLocation" x="4148" y="129"/>
         </scene>
         <!--Polylines-->
         <scene sceneID="uhf-uR-5WP">
@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nYG-Sf-OOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3630" y="200"/>
+            <point key="canvasLocation" x="3422" y="129"/>
         </scene>
         <!--Polygons-->
         <scene sceneID="d3a-zV-O8T">
@@ -72,7 +72,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I44-U4-YaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4342" y="200"/>
+            <point key="canvasLocation" x="2700" y="129"/>
+        </scene>
+        <!--Annotation Views and Images-->
+        <scene sceneID="ycL-LD-HWj">
+            <objects>
+                <viewController id="kCc-ee-act" customClass="AnnotationViewsAndImagesViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pJu-ke-O6z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ww5-ZH-dMN"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Annotation Views and Images" id="PoJ-Wv-Vkc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5jx-63-Xlf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2699" y="-568"/>
+        </scene>
+        <!--Animated Annotation Views-->
+        <scene sceneID="rhG-xo-Eqh">
+            <objects>
+                <viewController id="DLY-TR-Sl8" customClass="AnimatedAnnotationsViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ajv-vg-TJ2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JRR-bK-gDv"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Animated Annotation Views" id="4ym-dz-TLY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMv-Lj-fbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3422" y="-569"/>
+        </scene>
+        <!--Custom Views as Callouts-->
+        <scene sceneID="d3R-Ez-DmN">
+            <objects>
+                <viewController id="Egc-jO-LWn" customClass="CustomViewsAsCalloutsViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Ze-dx-lsO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QMd-uH-ge7"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Custom Views as Callouts" id="Wzd-US-5MZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jQ-Ir-eGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4148" y="-569"/>
         </scene>
         <!--Map.ir iOS SDK Demo-->
         <scene sceneID="roi-Gl-Xhx">
@@ -153,7 +201,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Default Features" footerTitle="To compare these, you must check ViewControllers code and the storyboards" id="501-xI-vle">
+                            <tableViewSection headerTitle="Default Annotations" footerTitle="" id="501-xI-vle">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="s0h-r6-bQb" style="IBUITableViewCellStyleDefault" id="3RH-hj-4FS">
                                         <rect key="frame" x="0.0" y="386.5" width="414" height="44"/>
@@ -237,6 +285,70 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="Custom Annotations" footerTitle="" id="i0w-ve-LTg">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="X6I-DK-tdQ" style="IBUITableViewCellStyleDefault" id="z7b-RB-a85">
+                                        <rect key="frame" x="0.0" y="626" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z7b-RB-a85" id="j5Z-3c-5sU">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Annotation Views and Images" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X6I-DK-tdQ">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="kCc-ee-act" kind="showDetail" id="GdX-rt-VE3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="L3j-t7-EVn" style="IBUITableViewCellStyleDefault" id="Q3M-Lv-N37">
+                                        <rect key="frame" x="0.0" y="670" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q3M-Lv-N37" id="KiY-ly-5Gb">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Animated Annotation Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L3j-t7-EVn">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DLY-TR-Sl8" kind="showDetail" id="B6T-Su-6rh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="bdP-Gs-OK4" style="IBUITableViewCellStyleDefault" id="M01-I1-o4R">
+                                        <rect key="frame" x="0.0" y="714" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M01-I1-o4R" id="ra9-G1-HBy">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Custom Views as Callouts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bdP-Gs-OK4">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Egc-jO-LWn" kind="showDetail" id="h4j-8k-J9Z"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="Qna-ts-eWf" id="Ftm-SG-sRM"/>
@@ -314,7 +426,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yaO-3b-2eC" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1493" y="932"/>
+            <point key="canvasLocation" x="2386" y="879"/>
         </scene>
         <!--User Current Location-->
         <scene sceneID="V2f-Yo-Umk">
@@ -359,23 +471,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="44D-z6-E8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2219" y="932"/>
+            <point key="canvasLocation" x="3112" y="879"/>
         </scene>
-        <!--Markers (Annotation)-->
+        <!--Markers-->
         <scene sceneID="agg-lK-pA6">
             <objects>
-                <viewController id="AuW-lr-JvT" customClass="AnnotaionsViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AuW-lr-JvT" customClass="AnnotationsViewController" customModule="Demo_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LD3-oS-zGt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kDk-T5-deH"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Markers (Annotation)" id="5cj-FG-wim"/>
+                    <navigationItem key="navigationItem" title="Markers" id="5cj-FG-wim"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eTO-JZ-u71" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2922" y="932"/>
+            <point key="canvasLocation" x="3814" y="879"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

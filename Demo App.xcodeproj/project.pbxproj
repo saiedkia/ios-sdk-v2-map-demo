@@ -16,10 +16,14 @@
 		C0947ECF2278616100649140 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0947ECD2278616100649140 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C0947ED52278842C00649140 /* StoryboardBasedVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */; };
 		C0947ED922795E4700649140 /* UserCurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0947ED822795E4700649140 /* UserCurrentLocationViewController.swift */; };
-		C0D554ED227971FA00C52699 /* AnnotaionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554EC227971FA00C52699 /* AnnotaionsViewController.swift */; };
+		C0D554ED227971FA00C52699 /* AnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554EC227971FA00C52699 /* AnnotationsViewController.swift */; };
 		C0D554F722797CBA00C52699 /* CalloutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554F622797CBA00C52699 /* CalloutsViewController.swift */; };
 		C0D554F9227983F700C52699 /* PolylinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554F8227983F700C52699 /* PolylinesViewController.swift */; };
 		C0D554FB22798EEB00C52699 /* PolygonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D554FA22798EEB00C52699 /* PolygonsViewController.swift */; };
+		C0D555152279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D555142279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift */; };
+		C0D555172279BDCB00C52699 /* AnimatedAnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D555162279BDCB00C52699 /* AnimatedAnnotationsViewController.swift */; };
+		C0D555192279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D555182279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift */; };
+		C0D9EC97227D5D850095A761 /* camera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D9EC96227D5D850095A761 /* camera.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,10 +52,14 @@
 		C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedVersionViewController.swift; sourceTree = "<group>"; };
 		C0947ED722789C2D00649140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		C0947ED822795E4700649140 /* UserCurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCurrentLocationViewController.swift; sourceTree = "<group>"; };
-		C0D554EC227971FA00C52699 /* AnnotaionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotaionsViewController.swift; sourceTree = "<group>"; };
+		C0D554EC227971FA00C52699 /* AnnotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsViewController.swift; sourceTree = "<group>"; };
 		C0D554F622797CBA00C52699 /* CalloutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutsViewController.swift; sourceTree = "<group>"; };
 		C0D554F8227983F700C52699 /* PolylinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolylinesViewController.swift; sourceTree = "<group>"; };
 		C0D554FA22798EEB00C52699 /* PolygonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonsViewController.swift; sourceTree = "<group>"; };
+		C0D555142279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewsAndImagesViewController.swift; sourceTree = "<group>"; };
+		C0D555162279BDCB00C52699 /* AnimatedAnnotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAnnotationsViewController.swift; sourceTree = "<group>"; };
+		C0D555182279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsAsCalloutsViewController.swift; sourceTree = "<group>"; };
+		C0D9EC96227D5D850095A761 /* camera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = camera.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,13 @@
 				C0947EBD2278579800649140 /* CodeBasedVersionViewController.swift */,
 				C0947ED42278842C00649140 /* StoryboardBasedVersionViewController.swift */,
 				C0947ED822795E4700649140 /* UserCurrentLocationViewController.swift */,
-				C0D554EC227971FA00C52699 /* AnnotaionsViewController.swift */,
+				C0D554EC227971FA00C52699 /* AnnotationsViewController.swift */,
 				C0D554F622797CBA00C52699 /* CalloutsViewController.swift */,
 				C0D554F8227983F700C52699 /* PolylinesViewController.swift */,
 				C0D554FA22798EEB00C52699 /* PolygonsViewController.swift */,
+				C0D555142279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift */,
+				C0D555162279BDCB00C52699 /* AnimatedAnnotationsViewController.swift */,
+				C0D555182279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -129,6 +140,7 @@
 		C0D554F22279725800C52699 /* Design Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C0D9EC96227D5D850095A761 /* camera.xcassets */,
 				C0947EC22278579900649140 /* Assets.xcassets */,
 			);
 			path = "Design Assets";
@@ -194,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D9EC97227D5D850095A761 /* camera.xcassets in Resources */,
 				C0947EC62278579900649140 /* LaunchScreen.storyboard in Resources */,
 				C0947EC32278579900649140 /* Assets.xcassets in Resources */,
 				C0947EC12278579800649140 /* Main.storyboard in Resources */,
@@ -227,10 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D555172279BDCB00C52699 /* AnimatedAnnotationsViewController.swift in Sources */,
+				C0D555152279BD8200C52699 /* AnnotationViewsAndImagesViewController.swift in Sources */,
 				C0947ED922795E4700649140 /* UserCurrentLocationViewController.swift in Sources */,
 				C0D554FB22798EEB00C52699 /* PolygonsViewController.swift in Sources */,
 				C0947ED52278842C00649140 /* StoryboardBasedVersionViewController.swift in Sources */,
-				C0D554ED227971FA00C52699 /* AnnotaionsViewController.swift in Sources */,
+				C0D555192279BDED00C52699 /* CustomViewsAsCalloutsViewController.swift in Sources */,
+				C0D554ED227971FA00C52699 /* AnnotationsViewController.swift in Sources */,
 				C0947EBE2278579800649140 /* CodeBasedVersionViewController.swift in Sources */,
 				C0947EBC2278579800649140 /* AppDelegate.swift in Sources */,
 				C0D554F9227983F700C52699 /* PolylinesViewController.swift in Sources */,
