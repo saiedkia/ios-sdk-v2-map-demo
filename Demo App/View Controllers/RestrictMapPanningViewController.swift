@@ -13,7 +13,7 @@ class RestrictMapPanningViewController: UIViewController, MGLMapViewDelegate {
 
     var mapView: MGLMapView! {
         didSet {
-            mapView.styleURL = MGLStyle.mapirVectorStyleURL()
+            mapView.styleURL = MGLStyle.mapirVectorStyleURL
             mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
             mapView.minimumZoomLevel = 1
         }
@@ -23,7 +23,8 @@ class RestrictMapPanningViewController: UIViewController, MGLMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationController?.navigationBar.isHidden = true
+
         mapView = MGLMapView(frame: view.bounds)
         view.addSubview(mapView)
         

@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MAPIRAccessToken</key>
+	<string>xxxxxxxxxx</string>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1IjoibXJhbGlyZXphYSIsImEiOiJjanV0aHN6MzEwODd2M3lvM2hwMHM3MWtlIn0.pHdDTIci_4CTNLRKVHl8Zg</string>
 	<key>NSLocationAlwaysUsageDescription</key>
