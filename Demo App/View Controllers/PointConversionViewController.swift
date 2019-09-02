@@ -13,7 +13,7 @@ class PointConversionViewController: UIViewController, MGLMapViewDelegate {
 
     var mapView: MGLMapView! {
         didSet {
-            mapView.styleURL = MGLStyle.mapirVectorStyleURL
+            mapView.styleURL = MGLStyle.mapirVectorStyleURL()
             mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
             mapView.minimumZoomLevel = 1
         }
@@ -26,7 +26,6 @@ class PointConversionViewController: UIViewController, MGLMapViewDelegate {
         
         mapView.delegate = self
         
-//        let tapRecognizer = UIGestureRecognizer(target: self, action: #selector(handleMapTap()))
         
     }
 

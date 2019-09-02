@@ -14,7 +14,7 @@ class CodeBasedVersionViewController: UIViewController, MGLMapViewDelegate {
     var mapView: MGLMapView! {
         didSet {
             mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            mapView.styleURL = MGLStyle.mapirVectorStyleURL
+            mapView.styleURL = MGLStyle.mapirVectorStyleURL()
             mapView.minimumZoomLevel = 1
         }
     }

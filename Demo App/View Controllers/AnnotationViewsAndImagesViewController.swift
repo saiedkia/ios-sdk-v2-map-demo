@@ -13,7 +13,7 @@ class AnnotationViewsAndImagesViewController: UIViewController, MGLMapViewDelega
     
     var mapView: MGLMapView! {
         didSet {
-            mapView.styleURL = MGLStyle.mapirVectorStyleURL
+            mapView.styleURL = MGLStyle.mapirVectorStyleURL()
             mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
             mapView.minimumZoomLevel = 1
         }

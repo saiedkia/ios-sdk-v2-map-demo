@@ -13,7 +13,7 @@ class CalloutsViewController: UIViewController, MGLMapViewDelegate {
     
     var mapView: MGLMapView! {
         didSet {
-            mapView.styleURL = MGLStyle.mapirVectorStyleURL
+            mapView.styleURL = MGLStyle.mapirVectorStyleURL()
             mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         }
     }

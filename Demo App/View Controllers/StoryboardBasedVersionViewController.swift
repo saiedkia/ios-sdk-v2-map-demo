@@ -13,7 +13,7 @@ class StoryboardBasedVersionViewController: UIViewController {
 
     @IBOutlet weak var mapView: MGLMapView! {
         didSet {
-            mapView.styleURL = MGLStyle.mapirVectorStyleURL
+            mapView.styleURL = MGLStyle.mapirVectorStyleURL()
             mapView.minimumZoomLevel = 1
         }
     }
