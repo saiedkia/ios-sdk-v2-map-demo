@@ -35,7 +35,7 @@ For every project you may follow these steps to add map.ir SDK to your project.
     bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh"
     ```
 7. Build (⌘ + B) your code and see if there is no errors.
-8. no you can import Mapbox in your code:
+8. now you can import Mapbox in your code:
 
     ```swift
     import Mapbox
