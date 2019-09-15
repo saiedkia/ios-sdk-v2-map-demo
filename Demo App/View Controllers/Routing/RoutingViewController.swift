@@ -75,6 +75,8 @@ class RoutingViewController: UIViewController, MGLMapViewDelegate {
     
     
     @IBAction func applyRouting(_ sender: Any) {
+        clearAnnotaions()
+        
         if pointTwo != nil && pointOne != nil {
             mps.route(from: pointOne!, to: [pointTwo!], routeMode: .drivingNoExclusion, completionHandler: {(routeRsult) in
                 switch routeRsult {
@@ -107,6 +109,14 @@ class RoutingViewController: UIViewController, MGLMapViewDelegate {
         }
     }
     
+    func mapView(_ mapView: MGLMapView, strokeColorForShapeAnnotation annotation: MGLShape) -> UIColor {
+        return UIColor.red
+    }
+    
+    private func clearAnnotaions() {
+        mapView.removeAnnotations(mapView.annotations ?? [MGLAnnotation]())
+        mapView.removeOverlays(mapView.overlays)
+    }
 }
 
 // MARK: text fields
